@@ -3,6 +3,8 @@
 [![repo](https://img.shields.io/badge/repository-Github-black.svg?style=flat-square)](https://github.com/ryanburnette/parse-mysql-url)
 [![npm](https://img.shields.io/badge/package-NPM-green.svg?style=flat-square)](https://www.npmjs.com/package/@ryanburnette/parse-mysql-url)
 
+Parse MySQL database URL into an object.
+
 ## Usage
 
 ```js
