@@ -11,7 +11,7 @@ function parse(url) {
         password: match[2],
         host: match[3],
         port: match[4],
-        db: match[5]
+        name: match[5]
       };
     }
   }
@@ -23,7 +23,7 @@ function parse(url) {
         password: match[2],
         host: match[3],
         port: '3306',
-        db: match[4]
+        name: match[4]
       };
     }
   }

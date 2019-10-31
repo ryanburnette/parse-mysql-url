@@ -13,18 +13,18 @@ function test(url, exp) {
   });
 }
 
-test('mysql://username:password@host:port/db', {
+test('mysql://username:password@host:port/name', {
   username: 'username',
   password: 'password',
   host: 'host',
   port: 'port',
-  db: 'db'
+  name: 'name'
 });
 
-test('mysql://username:password@host/db', {
+test('mysql://username:password@host/name', {
   username: 'username',
   password: 'password',
   host: 'host',
   port: '3306',
-  db: 'db'
+  name: 'name'
 });

@@ -9,12 +9,12 @@ Parse MySQL database URL into an object.
 
 ```js
 var parse = require('@ryanburnette/parse-mysql-url');
-console.log(parse('mysql://username:password@host:port/db'));
+console.log(parse('mysql://username:password@host:port/name'));
 // {
 //   username: 'username',
 //   password: 'password',
 //   host: 'host',
 //   port: 'port',
-//   db: 'db'
+//   name: 'name'
 // };
 ```
